@@ -1,0 +1,53 @@
+{
+    "video": [
+        "mp4",
+        "mkv"
+    ],
+
+    "db": [
+        "sqlite",
+        "sqlite3",
+        "sql"
+    ],
+
+    "py": [
+        "pyi",
+        "pyw",
+        "pyc"
+    ],
+
+    "docx": [
+        "doc",
+        "docx",
+        "odt"
+    ],
+
+    "xlsx": [
+        "xlsx",
+        "xls",
+        "ods"
+    ],
+
+    "zip": [
+        "tar",
+        "tar.gz"
+    ],
+
+    "ui": [
+        "ui",
+        "glade"
+    ],
+
+    "image": [
+        "jpg",
+        "png",
+        "jpeg",
+        "svg",
+        "gif"
+    ],
+    
+    "audio": [
+        "mp3",
+        "m4a"
+    ]
+} 
