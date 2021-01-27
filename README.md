@@ -1,4 +1,4 @@
-<img src="kangaroo-app/icons/bg.jpg" align="right" />
+<img src="images/bg.jpg" align="right" />
 
 # Awesome README
 
@@ -77,14 +77,14 @@ class Plugin(QWidget):
 - open your app launcher
 - selecte kangaroo
 - now click in icon to show/hide<br>
-<img src="kangaroo-app/icons/task_bar.png" align="top" /><br>
+<img src="images/task_bar.png" align="top" /><br>
 
 ## How start work with plugin
 - for start plugin write ```plugin:``` <br>
-<img src="kangaroo-app/icons/start_plugin.gif" align="top" /><br>
+<img src="images/start_plugin.gif" align="top" /><br>
 
 - for end plugin and start another plugin write ```end:``` or ```clear:``` or ```cls:```
-<img src="kangaroo-app/icons/end_plugin.gif" align="top" /><br>
+<img src="images/end_plugin.gif" align="top" /><br>
 
 ## Built in Plugins
 - files (v1.0.0)
