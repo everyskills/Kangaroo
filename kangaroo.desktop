@@ -1,1 +1,16 @@
  
+[Desktop Entry]
+Comment[en_US]=PDName
+Comment=Kangaroo
+Exec=kangaroo
+GenericName[en_US]=simple systems launcher
+GenericName=simple systems launcher
+Icon=/usr/share/kangaroo-app/icons/logo.png
+MimeType=
+Name[en_US]=Kangaroo
+Name=Kangaroo
+Path=/usr/share/kangaroo-app
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application

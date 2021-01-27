@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import importlib
+from subprocess import call
 
 def Import(_file: str):
     spec = importlib.util.spec_from_file_location(_file, _file)
@@ -10,6 +11,9 @@ def Import(_file: str):
 
 if __name__ == "__main__":
     try:
-        Import("/usr/share/Kangaroo/index.py").main()
-    except Exception:
+        Import("/usr/share/kangaroo-app/index.py").main()
+    except ImportError as e:
+        call("python3 /usr/share/kangaroo-app/index.py", shell=True)
+    else:
         print("! somthing error")
+    

@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+
+import os
+import shutil
+
+base_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), "")
+
+
+def delete(path: str, _file: bool = True):
+    if not _file:
+        shutil.rmtree(path)
+    else:
+        os.remove(path)
+    print(f"removed: {path} done...")
+
+
+try:
+    delete("/usr/share/kangaroo-app")
+    delete("/usr/share/applications/kangaroo.desktop")
+    delete("/usr/bin/kangaroo")
+    delete("/usr/bin/kangaroo-uninstall")
+except PermissionError:
+    print("! PermissionError: run this script as root or use sudo")

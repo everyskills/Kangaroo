@@ -8,8 +8,9 @@
 git close https://www.github.com/everyskills/Kangaroo.git
 unzip Kangaroo
 cd Kangaroo
-sudo chmod +x kangaroo.py
+sudo chmod +x kangaroo
 sudo python3 install.py
+kangaroo
 ```
 
 ## Uninstall
